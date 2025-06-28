@@ -31,17 +31,8 @@ pip install -r requirements.txt
 ### 2. Dataset Format
 CelebA dataset with text attributes
 
-3. Training
-bash
-```
-python train.py --config configs/default.yaml --save_dir runs/exp01
-```
-4. Inference
-python infer.py \
-  --ckpt runs/exp01/best.pt \
-  --prompt "a man wearing sunglasses" \
-  --num_images 4 \
-  --out_dir samples/
+
+### 3. Inference
 
 Evaluation on CelebA-128 dataset:
 
