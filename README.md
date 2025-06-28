@@ -15,7 +15,6 @@ This repository implements a Deep Convolutional GAN (DCGAN) that generates reali
 
 ### 1. Installation
 
-```bash
 
 ```
 cd dcgan
